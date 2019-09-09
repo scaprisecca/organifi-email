@@ -1,0 +1,83 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+
+    margin-top: 16px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.border-bottom {
+    border-bottom: #A5A5A5 solid 1px;
+}
+
+.no-bp {
+    padding-bottom: 0 !important;
+}
+
+.order-num {
+    padding-top: 16px;
+}
+
+button {
+    background-color: #60A64A;
+}
+
+.store-link {
+    color: #60A64A;
+
+    &:visited {
+        color: #60A64A;
+    }
+}
+
+p {
+    color: #A5A5A5;
+
+    &.title {
+        font-size: 24px;
+        color: black;
+    }
+
+    &.sub-title {
+        font-size: 20px;
+        color: black;
+    }
+
+    &.bold-text {
+        color: #555555;
+    }
+
+    &.price {
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+
+    &.total {
+        font-size: 20px;
+    }
+}
+
+.customer-info {
+
+    .columns {
+        padding-bottom: 0;
+    }
+}
+
+.footer-text {
+    font-size: 12px;
+    padding-top: 40px;
+}
